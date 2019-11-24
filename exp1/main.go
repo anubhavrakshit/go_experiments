@@ -16,7 +16,9 @@ func main() {
 	// bookArr[0] = "Book1"
 	// bookArr[1] = "Book2"
 	bookArr := [4]string{"Book 1", "Book 2"}
+	slicebookArr := []string{"Book3", "Book4", "Book5"}
 	fmt.Println(bookArr[0], bookArr[1])
+	fmt.Println(slicebookArr[0], slicebookArr[1])
 	fmt.Println(name, surname, math.Floor(age))
 	someFloat := 3.14
 	fmt.Printf("%T %T\n", name, surname)
